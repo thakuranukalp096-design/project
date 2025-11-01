@@ -1,0 +1,132 @@
+/* GLOBAL */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+/* LOGIN PAGE */
+.login-container {
+  width: 420px;
+  margin: 120px auto;
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.login-container h1 {
+  color: #e76f51;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  color: #444;
+  font-size: 16px;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.login-container button {
+  width: 95%;
+  padding: 12px;
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #cf553e;
+}
+
+/* HEADER */
+header {
+  background-color: #e76f51;
+  color: white;
+  padding: 12px 0;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* ✅ CHANGE DONE HERE */
+/* Cards now appear ONE BELOW THE OTHER */
+.cards {
+  display: flex;
+  flex-direction: column;   /* one below another */
+  align-items: center;      /* center align */
+  gap: 20px;
+}
+
+/* RECIPE CARDS */
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 90%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* ✅ CENTER IMAGES */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto; /* Center image */
+}
+
+/* Heading style */
+.card h3 {
+  color: #e76f51;
+  margin-top: 12px;
+}
+
+/* ✅ MAKE RECIPE TEXT ATTRACTIVE */
+.card p {
+  background: #fff1e6;
+  padding: 12px;
+  border-radius: 8px;
+  font-style: italic;
+  text-align: left;
+  color: #444;
+}
+
+/* FOOTER */
+footer {
+  background-color: #e76f51;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
